@@ -12,7 +12,7 @@ const teamMembers = [
   {
     name: 'Setor Simpri',
     description: "Hello, my name is Setor Simpri, and I am a senior studying for a BSc in Electrical and Computer Engineering (ECE). I’ve always been interested in exploring the health insurance system in the U.S., but I found that many of the resources available were unclear and didn’t provide a holistic, easy-to-understand picture of how the system works. This website aims to change that by offering straightforward, accessible information on various aspects of health insurance, including coverage options and how to select the plan that best meets your needs. Whether you're new to health insurance or just need a refresher, I hope this site makes navigating the world of health insurance a little easier and more understandable.",
-    imageUrl: 'https://via.placeholder.com/150', // Replace with actual image URL
+    imageUrl: '/placeholder.avif', // Replace with actual image URL
   },
   {
     name: 'Yuki Suwabe',
@@ -42,7 +42,7 @@ const AboutPage: React.FC = () => {
       <h2 className="section-header">Meet the Team</h2>
       {teamMembers.map((member, index) => (
         <div key={index} className="team-member">
-          <Image src={member.imageUrl} alt={member.name} className="team-member-image" />
+          <Image src={member.imageUrl} alt={member.name} className="team-member-image" width={150} height={150} />
           <div className="team-member-info">
             <h2>{member.name}</h2>
             <p>{member.description}</p>
