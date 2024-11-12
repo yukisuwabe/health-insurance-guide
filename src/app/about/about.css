@@ -1,0 +1,68 @@
+/* about.css */
+
+.about-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-header {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.section-header {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #555;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-member-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.team-member-info {
+  flex: 1;
+}
+
+.team-member-info h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.team-member-info p {
+  font-size: 16px;
+  color: #666;
+}
+
+.motivation-text {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  text-align: justify;
+}
