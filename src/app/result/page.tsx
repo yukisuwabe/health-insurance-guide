@@ -2,6 +2,7 @@
 import React, { useEffect, useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import './result.css';
+import NavBar from '@/app/ui/nav-links';
 
 const ResultPageContent: React.FC = () => {
   const searchParams = useSearchParams();
@@ -126,7 +127,7 @@ const ResultPageContent: React.FC = () => {
       // return (<div></div>);
     }
     generateRecommendation(params);
-  }, [searchParams, recommendationData]);
+  }, [searchParams]);
 
 
   return (
@@ -158,9 +159,12 @@ const ResultPageContent: React.FC = () => {
 
 const ResultPage: React.FC = () => {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <ResultPageContent />
-    </Suspense>
+    <div>
+      <NavBar />
+      <Suspense fallback={<div>Loading...</div>}>
+        <ResultPageContent />
+      </Suspense>
+    </div>
   );
 };
 

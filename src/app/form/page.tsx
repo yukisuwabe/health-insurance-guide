@@ -33,7 +33,7 @@ const Page: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const queryString = new URLSearchParams(formData).toString();
-    router.push(`/form/result?${queryString}`);
+    router.push(`/result?${queryString}`);
     console.log('Form Data Submitted:', formData);
   };
 
