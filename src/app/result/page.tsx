@@ -78,6 +78,7 @@ const ResultPageContent: React.FC = () => {
       } else {
         newRecommendationData.hmoEpoNote = true;
       }
+
       console.log("Generated!");
       setRecommendationData(newRecommendationData);
       displayRecommendation(newRecommendationData);
@@ -86,9 +87,12 @@ const ResultPageContent: React.FC = () => {
     const displayRecommendation = (data: typeof recommendationData) => {
       // Display the recommendation
       const highestValue = Math.max(data.PPO, data.POS, data.HMO, data.EPO);
-      const highestFields = (Object.keys(data) as (keyof typeof data)[]).filter(key =>
+      let highestFields = (Object.keys(data) as (keyof typeof data)[]).filter(key =>
         ['PPO', 'POS', 'HMO', 'EPO'].includes(key) && data[key] === highestValue
       );
+      if (highestFields.length >= 3) {
+        highestFields = ['PPO', 'HMO'];
+      }
       const items: JSX.Element[] = [];
       if (data.parent) {
         items.push(
