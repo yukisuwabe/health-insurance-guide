@@ -114,7 +114,7 @@ const ResultPageContent: React.FC = () => {
       if (data.highDeduct && !data.highPremium) {
         items.push(
           <div key="highDeductPremium">
-            <p>Make sure to choose a plan with high deductible and high premium</p>
+            <p>Make sure to choose a plan with high deductible and low premium</p>
           </div>
         );
       } else {
