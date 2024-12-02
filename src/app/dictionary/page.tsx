@@ -135,6 +135,7 @@ const DictionaryPage: React.FC = () => {
           </li>
         ))}
       </ul>
+      <img src="/table.jpeg" alt="Table of Health Insurance Plans" />
       <h1 className="dictionary-header">Learn more about the different healthcare plans here:</h1>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/gLzt2GjYVeA?si=j0BZfnrSIEsDuNIf" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
     </div>
