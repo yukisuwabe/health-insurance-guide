@@ -6,17 +6,17 @@ import './about.css';
 const teamMembers = [
   {
     name: 'Bailey Belinger',
-    description: "I’m pursuing a degree in Environmental Engineering, with graduation expected in Spring 2025. This project resonates with me deeply, as I’ll soon face the challenge of selecting an insurance plan with limited knowledge of how to make an informed choice. My goal throughout this project is to gain insight into key considerations in insurance packages and to assist other recent graduates who may encounter similar difficulties in navigating this important decision.",
+    description: "My name is Bailey Belinger and I am pursuing a degree in Environmental Engineering, with graduation expected in Spring 2025. This project resonates with me on a personal level, as I will soon face the challenge of selecting an insurance plan with limited knowledge of how to make an informed choice. Through this initiative, I aim to deepen my understanding of key considerations in insurance packages and provide valuable assistance to other recent graduates navigating this important decision.",
     imageUrl: "/bailey.jpeg", // Replace with actual image URL
   },
   {
     name: 'Setor Simpri',
-    description: "Hello, my name is Setor Simpri, and I am a senior studying for a BSc in Electrical and Computer Engineering (ECE). I’ve always been interested in exploring the health insurance system in the U.S., but I found that many of the resources available were unclear and didn’t provide a holistic, easy-to-understand picture of how the system works. This website aims to change that by offering straightforward, accessible information on various aspects of health insurance, including coverage options and how to select the plan that best meets your needs. Whether you're new to health insurance or just need a refresher, I hope this site makes navigating the world of health insurance a little easier and more understandable.",
+    description: "My name is Setor Simpri, and I am a senior working toward a Bachelor of Science in Electrical and Computer Engineering (ECE). I’ve always been intrigued by the U.S. health insurance system, but I found that many resources lacked clarity and failed to provide a comprehensive, easy-to-understand overview of how the system works. With this project, my goal is to simplify the complexities of health insurance by offering accessible, straightforward information on topics such as coverage options and selecting the right plan. Whether you’re new to health insurance or seeking a refresher, I hope this website helps make the process more approachable.",
     imageUrl: '/placeholder.avif', // Replace with actual image URL
   },
   {
     name: 'Yuki Suwabe',
-    description: 'I am a senior pursuing a degree in Computer Science. I am interested in this project because I believe that health insurance is an important topic that is not well understood by many people. I hope that this website will help people understand the basics of health insurance and make informed decisions about their health insurance plans.',
+    description: 'My name is Yuki Suwabe and I am a senior studying Computer Science, and I joined this project because I believe health insurance is a critical but often misunderstood topic. Many people struggle to grasp the basics or make informed choices about their coverage. By developing this website, I hope to break down the fundamentals of health insurance and empower users to make confident, well-informed decisions about their plans.',
     imageUrl: '/yuki.jpg', // Replace with actual image URL
   },
 ];

@@ -9,6 +9,7 @@ const links = [
   { name: 'About', href: '/about' },
   { name: 'Form', href: '/form' },
   { name: 'Dictionary', href: '/dictionary' },
+  { name: 'Overview', href: '/overview' },
 ];
 
 export default function NavLinks() {
