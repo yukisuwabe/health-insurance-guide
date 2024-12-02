@@ -54,6 +54,9 @@ const AboutPage: React.FC = () => {
         Health insurance is a hot topic in American society, but it wasn’t until we had to fill out a waiver for Cornell’s coverage that we realized how little we knew. Consider two issues: (a) the widespread discussions about health insurance and (b) the insurance system’s impact on whether people receive necessary medical care or even survive. If many share this experience, it highlights a significant problem. <br /> <br />
         Many recent college graduates receiving job offers have little to no knowledge about insurance packages and policies because they are insured under their parents. Our website will provide information on different insurance packages and give the users keywords to look for in the packages they are considering based on their answers to questions about coverage preferences.
       </p>
+      <h2 className="section-header">Our Method</h2>
+      <p className='motivation-text'> As current college students, we recognized the importance of consulting a health insurance professional to ensure we had accurate and reliable information. Kristin VanWye, a Licensed Insurance Agent at HealthMarkets, generously shared her expertise, answering our questions and offering valuable advice for recent graduates navigating health insurance options. She provided insights into various types of insurance plans, including HMO, PPO, EPO, and POS, which we detailed in our dictionary. Kristin also clarified key terminology and explained scenarios where individuals might prefer plans with higher or lower premiums and deductibles, helping us better understand how to make informed recommendations.
+      </p>
     </div>
   );
 };
