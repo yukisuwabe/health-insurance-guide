@@ -35,7 +35,7 @@ const HomePage: React.FC = () => {
       <div className="mission-container">
         <h2 className="mission-header">Our Mission</h2>
         <p className="mission-text">
-          Our mission is to provide recent college graduates with the knowledge and tools they need to make informed decisions about their health insurance. We aim to simplify the complexities of health insurance by offering accessible, straightforward information on topics such as coverage options and selecting the right plan. Whether you're new to health insurance or seeking a refresher, we hope this website helps make the process more approachable.
+          Our mission is to provide recent college graduates with the knowledge and tools they need to make informed decisions about their health insurance. We aim to simplify the complexities of health insurance by offering accessible, straightforward information on topics such as coverage options and selecting the right plan. Whether you&apos;re new to health insurance or seeking a refresher, we hope this website helps make the process more approachable.
         </p>
       </div>
     </div>

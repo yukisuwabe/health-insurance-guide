@@ -1,7 +1,21 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from 'react';
 import './overview.css';
 
 const OverviewPage: React.FC = () => {
+  const [isClient, setIsClient] = useState(false);
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return (
+      <div className='overview-container'>
+        <p>Loading...</p>
+      </div>
+    ); // Render a loading state on the server
+  }
+
   return (
     <div className="overview-container">
       <h2 className="section-header">Introduction</h2>
@@ -9,7 +23,7 @@ const OverviewPage: React.FC = () => {
         The ability to obtain healthcare is very important; be it a check-up, care after an emergency or treatment for any other type of sickness, being able to access and afford quality care is crucial. The fact though is that it is not always easy to access the care one needs pressingly or even if that care is available, it is hard to afford it.
       </p>
       <p>
-        In America specifically, expensive healthcare is the norm and is widely discussed: the tale of someone getting perhaps an hour’s care in the emergency room and then being shocked with thousands of dollars worth of resources that they have drained. Provided this widespread high expense, emergency health situations are probably on people's list of mortal fears.
+        In America specifically, expensive healthcare is the norm and is widely discussed: the tale of someone getting perhaps an hour’s care in the emergency room and then being shocked with thousands of dollars worth of resources that they have drained. Provided this widespread high expense, emergency health situations are probably on people&apos;s list of mortal fears.
       </p>
 
       <h2 className="section-header">Healthcare and Risk</h2>
