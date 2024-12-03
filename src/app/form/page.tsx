@@ -46,8 +46,8 @@ const Page: React.FC = () => {
   }
 
   return (
-    <div>
-      <h1>Find the Right Insurance for You!</h1>
+    <div className='form-container'>
+      <h1 className='form-header'>Find the Right Insurance for You!</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="age">Age:</label>
