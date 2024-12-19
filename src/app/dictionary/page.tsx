@@ -136,6 +136,7 @@ const DictionaryPage: React.FC = () => {
           </li>
         ))}
       </ul>
+      <h1 className='dictionary-header'>Table comparing the four different types of health insurance plans:</h1>
       <Image src="/table.jpeg" width={700}
         height={700}
         style={{ width: '70%', height: 'auto' }}
