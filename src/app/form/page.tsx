@@ -102,7 +102,7 @@ const Page: React.FC = () => {
           </select>
         </div>
         <div>
-          <label htmlFor="sameStateInsurance">Do you live in the area that will be providing your health insurance plan?</label>
+          <label htmlFor="sameStateInsurance">Do you live in the area that will be providing your health insurance plan? (i.e. same state as provider)</label>
           <select name="sameStateInsurance" onChange={handleChange} required>
             <option value="">Select</option>
             <option value="Yes">Yes</option>
