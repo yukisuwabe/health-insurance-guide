@@ -79,12 +79,6 @@ const OverviewPage: React.FC = () => {
           <br /> <br /> Provided this tight control, HMOs typically have lower premiums and deductibles.</li>
         <li><strong>Preferred Provider Organizations (PPO):</strong> Plans in this category offer flexibility that is between that of HMOs and indemnity insurance. PPOs are associated with a given network but the consumer has the option of choosing their own primary care provider. </li>
       </ul>
-      <h2 className="section-header">References</h2>
-      <ul>
-        <li>Health Insurance Plan (HIP/HMO). (2024). Health Insurance Plan (HIP/HMO). In Health Insurance Plan (HIP/HMO).  <a href="https://www.emblemhealth.com/content/dam/emblemhealth/pdfs/resources/ghi/2024/hip-hmo-ri-brochure-2024-emblemhealth.pdf" target="_blank" rel="noopener noreferrer">https://www.emblemhealth.com/content/dam/emblemhealth/pdfs/resources/ghi/2024/hip-hmo-ri-brochure-2024-emblemhealth.pdf</a></li>
-        <li>Centers for Medicare & Medicaid Services. (2023). Health Insurance Basics. In Health Insurance Basics. <a href="https://www.cms.gov/files/document/nsa-health-insurance-basics.pdf" target="_blank" rel="noopener noreferrer">https://www.cms.gov/files/document/nsa-health-insurance-basics.pdf</a></li>
-        <li>Patient Protection and Affordable Care Act. (2010). In Public Law (Vol. 111, pp. 119–121).<a href="https://www.congress.gov/111/plaws/publ148/PLAW-111publ148.pdf" target="_blank" rel="noopener noreferrer">https://www.congress.gov/111/plaws/publ148/PLAW-111publ148.pdf</a></li>
-      </ul>
     </div>
   );
 };
