@@ -75,6 +75,7 @@ const AboutPage: React.FC = () => {
         <li>U.S. Department of Health and Human Services. (2024). The Health Insurance Marketplace: Things You Can Do to Get Ready to Enroll. In CMS Product (No. 11629). <a href="https://www.cms.gov/marketplace/outreach-and-education/about-the-marketplace-english.pdf" target="_blank" rel="noopener noreferrer">https://www.cms.gov/marketplace/outreach-and-education/about-the-marketplace-english.pdf</a></li>
         <li>U.S. Centers for Medicare & Medicaid Services. (n.d.). Types of health insurance plans. HealthCare.gov. Retrieved from <a href="https://www.healthcare.gov/choose-a-plan/plan-types/" target="_blank" rel='noopener noreferrer'>https://www.healthcare.gov/choose-a-plan/plan-types/</a> </li>
         <li>VanWye, K. (2024, November 2). Personal communication.</li>
+        <li>Welcome to the Health Insurance Marketplace®. (n.d.). HealthCare.gov. <a href="https://www.healthcare.gov/" target='_blank' rel="noopener noreferrer">https://www.healthcare.gov/</a> </li>
       </ul>
     </div>
   );
